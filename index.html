@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <section class="container calculator-cont">
+        <div class="row">
+            <input id="calScr" class="col-lg-12 calc-scrn" type="text" readonly>
+        </div>
+        <div class="row">
+            <button id="btn1" class="col-lg-3 calc_btn" type="button" value="M-" disabled>M-</button>
+            <button id="btn2" class="col-lg-3 calc_btn" type="button" value="M+" disabled>M+</button>
+            <button id="btn3" class="col-lg-3 calc_btn" type="button" value="AC">AC</button>
+            <button id="btn4" class="col-lg-3 calc_btn" type="button" value="/">/</button>
+        </div>
+        <div class="row">
+            <button id="btn5" class="col-lg-3 calc_btn" type="button" value="7">7</button>
+            <button id="btn6" class="col-lg-3 calc_btn" type="button" value="8">8</button>
+            <button id="btn7" class="col-lg-3 calc_btn" type="button" value="9">9</button>
+            <button id="btn8" class="col-lg-3 calc_btn" type="button" value="*">*</button>
+        </div>
+        <div class="row">
+            <button id="btn9" class="col-lg-3 calc_btn" type="button" value="4">4</button>
+            <button id="btn10" class="col-lg-3 calc_btn" type="button" value="5">5</button>
+            <button id="btn11" class="col-lg-3 calc_btn" type="button" value="6">6</button>
+            <button id="btn12" class="col-lg-3 calc_btn" type="button" value="-">-</button>
+        </div>
+        <div class="row">
+            <button id="btn13" class="col-lg-3 calc_btn" type="button" value="1">1</button>
+            <button id="btn14" class="col-lg-3 calc_btn" type="button" value="2">2</button>
+            <button id="btn15" class="col-lg-3 calc_btn" type="button" value="3">3</button>
+            <button id="btn16" class="col-lg-3 calc_btn" type="button" value="+">+</button>
+        </div>
+        <div class="row">
+            <button id="btn17" class="col-lg-3 calc_btn" type="button" value="0">0</button>
+            <button id="btn18" class="col-lg-3 calc_btn" type="button" value=".">.</button>
+            <button id="btn19" class="col-lg-3 calc_btn" type="button" value="=">=</button>
+        </div>
+    </section>
+    <!-- Custom -->
+    <script type="text/javascript" src="code/BasicMathOperation.js"></script>
+    <script type="text/javascript" src="code/CalcButton.js"></script>
+    <script type="text/javascript" src="code/CalcButtonFactory.js"></script>
+    <script type="text/javascript" src="code/CalcScreen.js"></script>
+    <script type="text/javascript" src="code/Calculator.js"></script>
+
+    <script type="text/javascript" src="code/main.js"></script>
+    <!-- Bootstrap -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

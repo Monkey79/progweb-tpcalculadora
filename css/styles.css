@@ -1,0 +1,14 @@
+.calculator-cont {
+	width: 33%;
+	margin-top: 10%;
+}
+
+.calc-scrn {
+	height: 50px;
+	text-align: right;
+}
+
+.calc_btn {
+	font-size: 20px;
+	height: 38px;
+}

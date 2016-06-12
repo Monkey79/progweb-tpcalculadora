@@ -1,0 +1,21 @@
+{
+  "name": "calculadora-tp",
+  "authors": [
+    "Monkey79 <marianomartin79@gmail.com>"
+  ],
+  "description": "primer tp programador web (coder house)",
+  "main": "Calculadora",
+  "keywords": [
+    "calc"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
