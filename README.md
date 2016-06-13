@@ -7,3 +7,4 @@
 - Bootsrap grid.
 - Vanilla Js.
 - OOP.
+- The calculator is still in beta, only operate with two numbers.
